@@ -39,9 +39,9 @@ span{
     font-family: monospace;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 11ch;
+    width: 12ch;
 
-    animation: typing 3s steps(11) infinite, blink .5s infinite step-end alternate ;
+    animation: typing 3s steps(12) infinite, blink .5s infinite step-end alternate ;
     overflow: hidden;
 }
 

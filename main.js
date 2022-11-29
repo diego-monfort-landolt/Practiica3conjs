@@ -1,4 +1,5 @@
 
+//aufgabe 1
 function convertir(){
     var valore = parseInt(document.getElementById('valor').value);
     var resultado = 0;
@@ -18,7 +19,7 @@ function convertir(){
     }
 
 }
-
+//aufgabe 2
 // hiermit könnte man nachmodus einstellen bei webseiten- Weiss/Schwar
 var btn = document.getElementById('btn'),
     caja = document.getElementById('caja'),
@@ -34,3 +35,16 @@ function cambio(){
 
 
 btn.addEventListener('click',cambio, true);
+
+//negst Practic- aufgabe 3
+
+const button = document.querySelector('#btn1');
+button.addEventListener("click", saludar);
+function saludar(){
+    alert('Hola ');
+    button.removeEventListener("click", saludar);
+}
+
+
+//new practic
+
