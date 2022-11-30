@@ -108,3 +108,30 @@ h1 {
 .auto-type{
     color: red;
 }
+
+
+
+.animation1 {
+    width: 40%;
+    height: 20vh;
+    background-color: rgb(29, 4, 4);
+    color: #fff;
+    padding: 30px;
+    border-radius: 16px 0 16px 0;
+    box-shadow: 5px 10px 10px 10px rgba(108, 3, 3, 0.338);
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.animation1 h1 {
+    font-size: 20px;
+}
+.auto-type1{
+    
+    border-radius: 12px 0 12px 0;
+    padding: 9px;
+    color: rgb(30, 0, 255);
+}

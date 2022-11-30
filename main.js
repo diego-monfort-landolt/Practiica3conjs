@@ -68,3 +68,13 @@ var typed = new Typed(".auto-type", {
     loop:true
 
 });
+
+//second box
+
+var typed = new Typed(".auto-type1", {
+    strings: ["Hungry", "Jogging", "serching"],
+    typeSpeed: 150,
+    backSpeed:150,
+    loop:true
+
+});
