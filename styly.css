@@ -64,3 +64,47 @@ span{
     padding: 20px;
    
 }
+/*Section Houer*/
+
+.container {
+    height: 12vh;
+    width: 70vw;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    border-radius: 16px 0 16px 0;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.338);
+    
+}
+.reloj-container{
+    border: 1px solid #fff;
+    background-color: rgba(50, 49, 49, 0.667);
+    border-radius: 16px 0 16px 0;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 1px rgba(233, 229, 229, 0.767);
+}
+
+/*Here begin the animation i am coding*/
+
+.animation {
+    width: 40%;
+    height: 20vh;
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+    border-radius: 16px 0 16px 0;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.338);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.animation h1 {
+    font-size: 20px;
+}
+.auto-type{
+    color: red;
+}

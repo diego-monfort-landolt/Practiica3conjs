@@ -48,3 +48,23 @@ function saludar(){
 
 //new practic
 
+//Uhr settinterval 
+
+const horaContainer = document.querySelector('.hora');
+
+const actualizarHora = setInterval(function(){
+    const date = new Date();
+
+horaContainer.innerHTML = `${date.getHours()} : ${date.getMinutes()} : ${date.getSeconds()} `;
+
+},1000)
+
+//here start th intent autotyping
+
+var typed = new Typed(".auto-type", {
+    strings: ["Coding", "Learning", "Reading"],
+    typeSpeed: 150,
+    backSpeed:150,
+    loop:true
+
+});
